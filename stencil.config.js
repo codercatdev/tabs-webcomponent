@@ -1,6 +1,6 @@
 exports.config = {
   bundles: [
-    { components: ['my-name'] }
+    { components: ['ajonp-tabs'] }
   ],
   collections: [
     { name: '@stencil/router' }

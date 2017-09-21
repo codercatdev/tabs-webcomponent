@@ -2,10 +2,10 @@ import { Component, Prop } from '@stencil/core';
 
 
 @Component({
-  tag: 'my-name',
-  styleUrl: 'my-name.scss'
+  tag: 'ajonp-tabs',
+  styleUrl: 'ajonp-tabs.scss'
 })
-export class MyName {
+export class Tabs {
 
   @Prop() first: string;
 
