@@ -1,0 +1,33 @@
+{
+  "name": "@ajonp/tabs",
+  "private": false,
+  "version": "0.0.1",
+  "description": "Tabs",
+  "files": [
+    "src/"
+  ],
+  "scripts": {
+    "build": "stencil build --prerender",
+    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
+    "serve": "stencil-dev-server",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@stencil/core": "next",
+    "@stencil/router": "0.0.9"
+  },
+  "devDependencies": {
+    "@stencil/dev-server": "latest",
+    "@stencil/utils": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajonp/tabs-webcomponent.git"
+  },
+  "author": "Ionic Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajonp/tabs-webcomponent.git"
+  },
+  "homepage": "https://github.com/ajonp/tabs-webcomponent.git"
+}
